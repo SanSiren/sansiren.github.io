@@ -1,0 +1,36 @@
+<html>
+<head>
+    <title>Animal Crossing New Horizons</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+  <div id="header">
+    <h1>Fishes List/h1>
+  </div>
+  <div id="back">
+    <script>
+      function goBack() {
+        window.history.back();
+      }
+      </script>
+  </div>
+  <div id="fish">
+    <script>
+      var source = "data/fish.json";
+      fetch(source)
+        .then(response => response.json())
+        .then(data => {
+          var fish = data.fish;
+          var fishList = document.createElement("ul");
+          fish.forEach(fish => {
+            var fishItem = document.createElement("li");
+            fishItem.innerHTML = fish.name;
+            fishList.appendChild(fishItem);
+          });
+          document.getElementById("fish").appendChild(fishList);
+        });
+    </script>
+  </div>
+</body>
+</html>
