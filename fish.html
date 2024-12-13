@@ -14,10 +14,15 @@
   <div id="fish">
     <script>
       var source = "data/fish.json";
-      var response
       fetch(source)
-        .then(response => response.json());
-      console.log(response);
+        .then(response => response.json())
+        .then(data => {
+          var fish = data.fish;
+          console.log(typeof fish);
+          console.log(fish);
+          console.log ("##########");
+          console.log(Object.toString(fish));
+          });
     </script>
   </div>
 </body>
