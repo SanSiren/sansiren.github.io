@@ -17,7 +17,7 @@
       fetch(source)
         .then(response => response.json())
         .then(data => {
-          var fish = data.fish;
+          var fish = JSON.parse(data.fish);
           console.log(fish);
           console.log ("##########");
           console.log(fish[0]);
