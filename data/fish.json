@@ -1,16 +1,5 @@
 {
   "fish": {
-    "0": {
-      "name": "Name",
-      "price": "Price",
-      "location": "Location",
-      "shadowSize": "Shadow Size",
-      "time": "All day",
-      "months": {
-        "northern": "Northern Hemisphere",
-        "southern": "Southern Hemisphere"
-      }
-    },
     "1": {
       "name": "Bitterling",
       "price": 900,
