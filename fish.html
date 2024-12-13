@@ -36,6 +36,7 @@
           headerCell4.innerHTML = "<b>Shadow Size</b>";
           headerCell5.innerHTML = "<b>Time</b>";
           headerCell6.innerHTML = "<b>Months</b>";
+          console.log(fish.length);
           for (var i = 0; i < fish.length; i++) {
             var row = fishList.insertRow(i + 1);
             var cell1 = row.insertCell(0);
@@ -50,6 +51,7 @@
             cell4.innerHTML = fish[i].shadowSize;
             cell5.innerHTML = fish[i].time;
             cell6.innerHTML = fish[i].months;
+            console.log(fish[i].name);
           }
         });
     </script>
