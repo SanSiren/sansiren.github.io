@@ -18,11 +18,10 @@
         .then(response => response.json())
         .then(data => {
           var fish = data.fish;
+          console.log(typeof fish);
           console.log(fish);
           console.log ("##########");
           console.log(fish[0]);
-          console.log ("##########");
-          console.log(Object.values(fish[0]));
           });
     </script>
   </div>
