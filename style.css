@@ -15,6 +15,10 @@ table, th, td {
   border-collapse: collapse;
 }
 
+.center {
+  padding: 20px;
+  text-align: center;
+}
 .header {
   width: 100%;
   padding: 20px;
