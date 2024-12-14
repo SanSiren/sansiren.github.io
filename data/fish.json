@@ -4,7 +4,7 @@
       "name": "Bitterling",
       "price": 900,
       "location": "River",
-      "shadowSize": "Smallest",
+      "shadowSize": "X-Small",
       "time": "All day",
       "months": {
         "northern": "November to March",
@@ -15,7 +15,7 @@
       "name": "Pale Chub",
       "price": 200,
       "location": "River",
-      "shadowSize": "Smallest",
+      "shadowSize": "X-Small",
       "time": "9 AM - 4 PM",
       "months": {
         "northern": "All year",
@@ -70,7 +70,7 @@
       "name": "Goldfish",
       "price": 1300,
       "location": "Pond",
-      "shadowSize": "Smallest",
+      "shadowSize": "X-Small",
       "time": "All day",
       "months": {
         "northern": "All year",
@@ -81,7 +81,7 @@
       "name": "Pop-eyed Goldfish",
       "price": 1300,
       "location": "Pond",
-      "shadowSize": "Smallest",
+      "shadowSize": "X-Small",
       "time": "9 AM - 4 PM",
       "months": {
         "northern": "All year",
@@ -103,7 +103,7 @@
       "name": "Killifish",
       "price": 300,
       "location": "Pond",
-      "shadowSize": "Smallest",
+      "shadowSize": "X-Small",
       "time": "All day",
       "months": {
         "northern": "April to August",
@@ -147,7 +147,7 @@
       "name": "Tadpole",
       "price": 100,
       "location": "Pond",
-      "shadowSize": "Smallest",
+      "shadowSize": "X-Small",
       "time": "All day",
       "months": {
         "northern": "March to July",
@@ -367,7 +367,7 @@
       "name": "Guppy",
       "price": 1300,
       "location": "River",
-      "shadowSize": "Smallest",
+      "shadowSize": "X-Small",
       "time": "9 AM - 4 PM",
       "months": {
         "northern": "April to November",
@@ -378,7 +378,7 @@
       "name": "Nibble Fish",
       "price": 1500,
       "location": "River",
-      "shadowSize": "Smallest",
+      "shadowSize": "X-Small",
       "time": "9 AM - 4 PM",
       "months": {
         "northern": "May to September",
@@ -411,7 +411,7 @@
       "name": "Neon Tetra",
       "price": 500,
       "location": "River",
-      "shadowSize": "Smallest",
+      "shadowSize": "X-Small",
       "time": "9 AM - 4 PM",
       "months": {
         "northern": "April to November",
@@ -510,7 +510,7 @@
       "name": "Sea Butterfly",
       "price": 1000,
       "location": "Sea",
-      "shadowSize": "Smallest",
+      "shadowSize": "X-Small",
       "time": "All day",
       "months": {
         "northern": "December to March",
@@ -521,7 +521,7 @@
       "name": "Sea Horse",
       "price": 1100,
       "location": "Sea",
-      "shadowSize": "Smallest",
+      "shadowSize": "X-Small",
       "time": "All day",
       "months": {
         "northern": "April to November",
@@ -532,7 +532,7 @@
       "name": "Clown Fish",
       "price": 650,
       "location": "Sea",
-      "shadowSize": "Smallest",
+      "shadowSize": "X-Small",
       "time": "All day",
       "months": {
         "northern": "April to September",
