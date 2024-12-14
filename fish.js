@@ -31,6 +31,7 @@ fetch(source)
     cell1.innerHTML = html;
     cell1.colSpan = 2;
     cell1.style.textAlign = "center";
+    cell1.style.padding = "30px";
 
     // localtion + shadow
 
