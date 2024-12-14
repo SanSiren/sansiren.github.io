@@ -1,8 +1,6 @@
 body {
   font: 14px/1.5 'Comic Sans MS', 'Comic Sans', cursive;
   src: url('./fonts/comic-sans-ms.ttf');
-  color: aliceblue;
-  stroke: palevioletred;
   background-image: url('./images/background.jpeg');
   background-repeat: repeat;
 }
@@ -12,6 +10,8 @@ h1 {
   src: url('./fonts/snell-roundhand.otf');
   font-size: 250%;
   text-align: center;
+  color: aliceblue;
+  stroke: palevioletred;
 }
 
 table, th, td {
