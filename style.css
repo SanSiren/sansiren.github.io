@@ -22,6 +22,19 @@ h1 {
   text-shadow: 4px 4px 4px #000000;
 }
 
+.header {
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+}
+
+.back {
+  width: 100%;
+  padding-right: 25px;
+  text-align: right;
+  font-size: 90%;
+}
+
 .nav {
   padding: 20px;
   text-align: center;
@@ -38,17 +51,12 @@ h1 {
   border: none;
 }
 
-.header {
-  width: 100%;
-  padding: 20px;
-  text-align: center;
+.right {
+  text-align: right;
 }
 
-.back {
-  width: 100%;
-  padding-right: 25px;
-  text-align: right;
-  font-size: 90%;
+.left {
+  text-align: left;
 }
 
 .fishes {
