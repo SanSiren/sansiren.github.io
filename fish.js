@@ -38,20 +38,24 @@ fetch(source)
     var cell2 = row.insertCell(0);
     cell2.innerHTML = "Location: <br>" + fish.location;
     cell2.style.textAlign = "center";
+    cell2.style.width = "50%";
 
     var cell3 = row.insertCell(1);
     cell3.innerHTML = "Shadow: <br>" + fish.shadowSize;
     cell3.style.textAlign = "center";
+    cell3.style.width = "50%";
 
     // months + time
     row = tbody.insertRow(-1);
     var cell4 = row.insertCell(0);
     cell4.innerHTML = "Nothern Hemisphere: </br>" + fish.months.northern + "</br> Southern Hemisphere: </br>" + fish.months.southern;
     cell4.style.padding = "15px";
+    cell4.style.width = "50%";
 
     var cell5 = row.insertCell(1);
     cell5.innerHTML = "Time: <br>" + fish.time;
     cell5.style.padding = "15px";
+    cell5.style.width = "50%";
 
     // price
 
