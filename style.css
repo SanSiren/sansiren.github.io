@@ -75,8 +75,6 @@ h1 {
 .fish table {
   color: aliceblue;
   width: 100%;
-}
-
-.fish table td {
-  border: none;
+  border: 1px solid;
+  border-collapse: collapse;
 }
