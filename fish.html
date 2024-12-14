@@ -42,7 +42,7 @@
           headerCell5.innerHTML = "<b>Time</b>";
           headerCell6.innerHTML = "<b>Months</b>";
           for (var i = 1; i <= 80; i++) {
-            var row = fishList.insertRow(i + 1);
+            var row;
             var cell1 = row.insertCell(0);
             var cell2 = row.insertCell(1);
             var cell3 = row.insertCell(2);
@@ -55,6 +55,7 @@
             cell4.innerHTML = fish[i].shadowSize;
             cell5.innerHTML = fish[i].time;
             cell6.innerHTML = fish[i].months;
+            row = fishList.insertRow(i + 1);
           }
           console.log("##########");
           console.log(fishList);
