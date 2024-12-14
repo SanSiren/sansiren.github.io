@@ -35,11 +35,6 @@
                 var index = i + j;
                 var cell = row.insertCell(j / 5);
                 console.log(fish[index].name);
-                var html = "<a href=\"fish.html?index=" + index + "\" target=\"fishFrame\">";
-                html += "<img src=\"./images/fish/" + index + ".jpeg\" title= \"" + fish[index].name + "\" alt=\"not found yet\">";
-                html += "</a>";
-                console.log(html);
-                //cell.innerHTML = html;
                 cell.innerHTML =  "<img src=\"./images/fish/" + index + ".jpeg\" title= \"" + fish[index].name + "\" alt=\"not found yet\">";
               }
             }
