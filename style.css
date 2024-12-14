@@ -1,13 +1,21 @@
+@font-face {
+  font-family: 'Comic Sans MS';
+  src: url('./fonts/comic-sans-ms.ttf');
+}
+
+@font-face {
+  font-family: 'Snell Roundhand';
+  src: url('./fonts/snell-roundhand.otf');
+}
+
 body {
   font: 14px/1.5 'Comic Sans MS', 'Comic Sans', cursive;
-  src: url('./fonts/comic-sans-ms.ttf');
   background-image: url('./images/background.jpeg');
   background-repeat: repeat;
 }
 
 h1 {
   font-family: 'Snell Roundhand', cursive;
-  src: url('./fonts/snell-roundhand.otf');
   font-size: 250%;
   text-align: center;
   color: aliceblue;
