@@ -62,5 +62,6 @@ fetch(source)
     var cell6 = row.insertCell(0);
     cell6.innerHTML = "<b>Price:</b> <br>" + fish.price;
     cell6.style.textAlign = "center";
+    cell6.style.width = "100%";
 
     });
