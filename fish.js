@@ -36,27 +36,31 @@ fetch(source)
     // localtion + shadow
     row = tbody.insertRow(-1);
     var cell2 = row.insertCell(0);
-    cell2.innerHTML = "Location: <br>" + fish.location;
+    cell2.innerHTML = "<b>Location:</b> <br>" + fish.location;
     cell2.style.textAlign = "center";
     cell2.style.width = "50%";
 
     var cell3 = row.insertCell(1);
-    cell3.innerHTML = "Shadow: <br>" + fish.shadowSize;
+    cell3.innerHTML = "<b>Shadow:</b> <br>" + fish.shadowSize;
     cell3.style.textAlign = "center";
     cell3.style.width = "50%";
 
     // months + time
     row = tbody.insertRow(-1);
     var cell4 = row.insertCell(0);
-    cell4.innerHTML = "Nothern Hemisphere: </br>" + fish.months.northern + "</br> Southern Hemisphere: </br>" + fish.months.southern;
+    cell4.innerHTML = "<b>Nothern Hemisphere:</b> </br>" + fish.months.northern + "</br> <b>Southern Hemisphere:</b> </br>" + fish.months.southern;
     cell4.style.padding = "15px";
     cell4.style.width = "50%";
 
     var cell5 = row.insertCell(1);
-    cell5.innerHTML = "Time: <br>" + fish.time;
+    cell5.innerHTML = "<b>Time:</b> <br>" + fish.time;
     cell5.style.padding = "15px";
     cell5.style.width = "50%";
 
     // price
+    row = tbody.insertRow(-1);
+    var cell6 = row.insertCell(0);
+    cell6.innerHTML = "<b>Price:</b> <br>" + fish.price;
+    cell6.style.textAlign = "center";
 
     });
