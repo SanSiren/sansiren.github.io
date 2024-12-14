@@ -37,11 +37,21 @@ fetch(source)
     row = tbody.insertRow(-1);
     var cell2 = row.insertCell(0);
     cell2.innerHTML = "Location: <br>" + fish.location;
+    cell2.style.textAlign = "center";
 
     var cell3 = row.insertCell(1);
     cell3.innerHTML = "Shadow: <br>" + fish.shadowSize;
+    cell3.style.textAlign = "center";
 
     // months + time
+    row = tbody.insertRow(-1);
+    var cell4 = row.insertCell(0);
+    cell4.innerHTML = "Months: <br>" + fish.months;
+    cell4.style.padding = "15px";
+
+    var cell5 = row.insertCell(1);
+    cell5.innerHTML = "Time: <br>" + fish.time;
+    cell5.style.padding = "15px";
 
     // price
 
