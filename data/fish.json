@@ -293,8 +293,8 @@
       "shadowSize": "Medium",
       "time": "4 PM - 9 AM, All Day",
       "months": {
-        "northern": "March to June, September to November",
-        "southern": "September to December, March to May"
+        "northern": "March to June </br> September to November",
+        "southern": "September to December </br> March to May"
       }
     },
     "28": {
@@ -304,8 +304,8 @@
       "shadowSize": "Medium",
       "time": "4 PM - 9 AM",
       "months": {
-        "northern": "March to June, September to November",
-        "southern": "September to December, March to May"
+        "northern": "March to June </br> September to November",
+        "southern": "September to December </br> March to May"
       }
     },
     "29": {
@@ -315,8 +315,8 @@
       "shadowSize": "Medium",
       "time": "4 PM - 9 AM",
       "months": {
-        "northern": "March to June, September to November",
-        "southern": "September to December, March to May"
+        "northern": "March to June </br> September to November",
+        "southern": "September to December </br> March to May"
       }
     },
     "30": {
@@ -434,7 +434,7 @@
       "price": 2500,
       "location": "River",
       "shadowSize": "Small",
-      "time": "9 AM - 4 PM, 9 PM - 4 AM",
+      "time": "9 AM - 4 PM </br> 9 PM - 4 AM",
       "months": {
         "northern": "June to September",
         "southern": "December to March"
