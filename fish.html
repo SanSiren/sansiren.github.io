@@ -21,9 +21,9 @@
         .then(data => {
           var fish = data.fish;
           console.log(fish);
-          console.log("##########");
-          console.log(fish[1].name);
-          console.log("##########");
+//          console.log("##########");
+//          console.log(fish[1].name);
+//          console.log("##########");
           var fishList = document.createElement("table");
           fishList.setAttribute("id", "fishList");
           document.getElementById("fish").appendChild(fishList);
@@ -56,6 +56,8 @@
             cell5.innerHTML = fish[i].time;
             cell6.innerHTML = fish[i].months;
           }
+          console.log("##########");
+          console.log(fishList);
         });
     </script>
   </div>
