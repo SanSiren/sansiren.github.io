@@ -31,9 +31,15 @@ fetch(source)
     cell1.innerHTML = html;
     cell1.colSpan = 2;
     cell1.style.textAlign = "center";
-    cell1.style.padding = "30px";
+    cell1.style.padding = "25px";
 
     // localtion + shadow
+    row = tbody.insertRow(-1);
+    var cell2 = row.insertCell(0);
+    cell2.innerHTML = "Location: <br>" + fish.location;
+
+    var cell3 = row.insertCell(1);
+    cell3.innerHTML = "Shadow: <br>" + fish.shadow;
 
     // months + time
 
