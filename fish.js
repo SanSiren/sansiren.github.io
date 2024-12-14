@@ -39,7 +39,7 @@ fetch(source)
     cell2.innerHTML = "Location: <br>" + fish.location;
 
     var cell3 = row.insertCell(1);
-    cell3.innerHTML = "Shadow: <br>" + fish.shadow;
+    cell3.innerHTML = "Shadow: <br>" + fish.shadowSize;
 
     // months + time
 
