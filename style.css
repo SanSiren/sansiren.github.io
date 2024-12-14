@@ -3,6 +3,8 @@ body {
 }
 
 h1 {
+  font-family: 'Snell Roundhand', cursive;
+  src: url('./fonts/snell-roundhand.otf');
   font-size: 250%;
 }
 
