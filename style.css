@@ -27,3 +27,9 @@ table, th, td {
   text-align: right;
   font-size: 90%;
 }
+
+.fish {
+  width: 100%;
+  padding: 20px;
+  overflow: scroll;
+}
