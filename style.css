@@ -37,7 +37,6 @@ h1 {
 
 .nav {
   padding: 20px;
-  text-align: center;
 }
 
 .nav table {
@@ -47,7 +46,6 @@ h1 {
 
 .nav table td {
   padding: 10px;
-  text-align: center;
   border: none;
 }
 
@@ -57,6 +55,10 @@ h1 {
 
 .left {
   text-align: left;
+}
+
+.center {
+  text-align: center;
 }
 
 .fishes {
