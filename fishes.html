@@ -38,6 +38,7 @@
                 var html = "<a href=\"fish.html?index=" + index + "\" target=\"fishFrame\">";
                 html += "<img src=\"./images/fish/" + index + ".jpeg\" title= \"" + fish[index].name + "\" alt=\"not found yet\">";
                 html += "</a>";
+                html += "<iframe src=\"fish.html\" name=\"fishFrame\" width=\"50%\" height=\"50%\"></iframe>";
                 console.log(html);
                 cell.innerHTML = html;
                 //cell.innerHTML =  "<img src=\"./images/fish/" + index + ".jpeg\" title= \"" + fish[index].name + "\" alt=\"not found yet\">";
