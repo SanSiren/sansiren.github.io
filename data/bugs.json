@@ -16,8 +16,8 @@
       "location": "Flying",
       "time": "4 AM - 7 PM",
       "months": {
-        "northern": "September - June",
-        "southern": "March - December"
+        "northern": "March - June </br> September - October",
+        "southern": "March - April </br> September - December"
       }
     },
     "3": {
@@ -33,11 +33,11 @@
     "4": {
       "name": "Peacock Butterfly",
       "price": 2500,
-      "location": "Flying near hybrid flowers",
+      "location": "Flying near dark flowers",
       "time": "4 AM - 7 PM",
       "months": {
-        "northern": "March - June </br> September - November",
-        "southern": "September - December </br> March - May"
+        "northern": "March - June",
+        "southern": "September - December"
       }
     },
     "5": {
@@ -66,8 +66,8 @@
       "location": "Flying",
       "time": "4 AM - 7 PM",
       "months": {
-        "northern": "May - August </br> September - October",
-        "southern": "November - February </br> March - April"
+        "northern": "May - August",
+        "southern": "November - February"
       }
     },
     "8": {
@@ -236,8 +236,8 @@
       "location": "Flying",
       "time": "8 AM - 5 PM",
       "months": {
-        "northern": "March - July </br> September - October",
-        "southern": "March - May </br> November - January"
+        "northern": "March - July",
+        "southern": "September - January"
       }
     },
     "25": {
@@ -313,7 +313,7 @@
     "32": {
       "name": "Red Dragonfly",
       "price": 180,
-      "location": "Flying",
+      "location": "Flying near water",
       "time": "8 AM - 7 PM",
       "months": {
         "northern": "September - October",
@@ -323,7 +323,7 @@
     "33": {
       "name": "Darner Dragonfly",
       "price": 230,
-      "location": "Flying",
+      "location": "Flying near water",
       "time": "8 AM - 5 PM",
       "months": {
         "northern": "April - October",
@@ -333,7 +333,7 @@
     "34": {
       "name": "Banded Dragonfly",
       "price": 4500,
-      "location": "Flying",
+      "location": "Flying near water",
       "time": "8 AM - 5 PM",
       "months": {
         "northern": "May - October",
@@ -343,17 +343,17 @@
     "35": {
       "name": "Damselfly",
       "price": 500,
-      "location": "Flying",
+      "location": "Flying near water",
       "time": "All Day",
       "months": {
-        "northern": "All Year",
-        "southern": "All Year"
+        "northern": "November - February",
+        "southern": "May - August"
       }
     },
     "36": {
       "name": "Firefly",
       "price": 300,
-      "location": "Flying",
+      "location": "Flying near water",
       "time": "7 PM - 4 AM",
       "months": {
         "northern": "June",
@@ -366,8 +366,8 @@
       "location": "Underground",
       "time": "All Day",
       "months": {
-        "northern": "All Year",
-        "southern": "All Year"
+        "northern": "November - May",
+        "southern": "May - November"
       }
     },
     "38": {
@@ -406,8 +406,8 @@
       "location": "On flowers",
       "time": "All Day",
       "months": {
-        "northern": "All Year",
-        "southern": "All Year"
+        "northern": "March - October",
+        "southern": "September - April"
       }
     },
     "42": {
@@ -426,18 +426,18 @@
       "location": "On flowers",
       "time": "8 AM - 5 PM",
       "months": {
-        "northern": "March - October",
-        "southern": "September - April"
+        "northern": "March - June </br> October",
+        "southern": "April </br> September - December"
       }
     },
     "44": {
       "name": "Tiger Beetle",
       "price": 1500,
       "location": "On the ground",
-      "time": "All Year",
+      "time": "All Day",
       "months": {
-        "northern": "All Year",
-        "southern": "All Year"
+        "northern": "February - October",
+        "southern": "August - April"
       }
     },
     "45": {
@@ -446,8 +446,8 @@
       "location": "On tree stumps",
       "time": "All Year",
       "months": {
-        "northern": "April - August, October - February",
-        "southern": "April - February, August"
+        "northern": "April - August",
+        "southern": "October - February"
       }
     },
     "46": {
@@ -486,8 +486,8 @@
       "location": "On palm trees",
       "time": "All Day",
       "months": {
-        "northern": "July - August, November - January",
-        "southern": "January - February, May - July"
+        "northern": "July - August",
+        "southern": "January - February"
       }
     },
     "50": {
@@ -496,8 +496,8 @@
       "location": "On the ground",
       "time": "All Day",
       "months": {
-        "northern": "December - February </br> May - October",
-        "southern": "June - August </br> November - April"
+        "northern": "December - February",
+        "southern": "June - August"
       }
     },
     "51": {
@@ -536,8 +536,8 @@
       "location": "On palm trees",
       "time": "5 PM - 8 AM",
       "months": {
-        "northern": "June - September </br> December - March",
-        "southern": "December - March </br> June - September"
+        "northern": "June - September",
+        "southern": "December - March"
       }
     },
     "55": {
@@ -703,7 +703,7 @@
     "71": {
       "name": "Wharf Roach",
       "price": 200,
-      "location": "On rocks",
+      "location": "On beach rocks",
       "time": "All Year",
       "months": {
         "northern": "All Year",
@@ -734,10 +734,10 @@
       "name": "Flea",
       "price": 70,
       "location": "On villagers",
-      "time": "All Day",
+      "time": "5 PM - 4 AM",
       "months": {
-        "northern": "All Year",
-        "southern": "All Year"
+        "northern": "June - September",
+        "southern": "December - March"
       }
     },
     "75": {
@@ -776,8 +776,8 @@
       "location": "Shaking trees",
       "time": "7 PM - 8 AM",
       "months": {
-        "northern": "March - June, September - December",
-        "southern": "March - June, September - December"
+        "northern": "All Year",
+        "southern": "All Year"
       }
     },
     "79": {
