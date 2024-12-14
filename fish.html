@@ -43,6 +43,7 @@
           headerCell6.innerHTML = "<b>Months</b>";
 
           var tbody = fishList.createTBody();
+          for (var i = 1; i <= 80; i++) {
           var row = tbody.insertRow(-1);
           var cell1 = row.insertCell(0);
           var cell2 = row.insertCell(1);
@@ -50,15 +51,13 @@
           var cell4 = row.insertCell(3);
           var cell5 = row.insertCell(4);
           var cell6 = row.insertCell(5);
-          cell1.innerHTML = fish[1].name;
-          cell2.innerHTML = fish[1].location;
-          cell3.innerHTML = fish[1].price;
-          cell4.innerHTML = fish[1].shadowSize;
-          cell5.innerHTML = fish[1].time;
-          cell6.innerHTML = fish[1].months;
-
-          console.log("##########");
-          console.log(fishList);
+          cell1.innerHTML = fish[i].name;
+          cell2.innerHTML = fish[i].location;
+          cell3.innerHTML = fish[i].price;
+          cell4.innerHTML = fish[i].shadowSize;
+          cell5.innerHTML = fish[i].time;
+          cell6.innerHTML = fish[i].months;
+          }
         });
     </script>
   </div>
