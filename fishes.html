@@ -1,0 +1,47 @@
+<html>
+
+<head>
+  <title>Animal Crossing New Horizons</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+
+<body>
+  <div id="header" class="header">
+    <h1>Fishes List</h1>
+  </div>
+  <div id="back" class="back">
+    <a href="javascript:history.back()">Go Back</a>
+  </div>
+  <div id="fish" class="fish">
+    <script>
+      // Fetch data from JSON file for convenience
+      var source = "data/fish.json";
+      fetch(source)
+        .then(response => response.json())
+        .then(data => {
+          var fish = data.fish;
+          // see that all is there just in case
+          console.log(fish);
+          var fishList = document.createElement("table");
+          fishList.setAttribute("id", "fishList");
+          document.getElementById("fish").appendChild(fishList);
+
+          var tbody = fishList.createTBody();
+          for (var i = 1; i <= 5; i++) {
+            var row = tbody.insertRow(-1);
+            for (var j = 0; j <= 75; j = j + 5) {
+              {
+                var index = i + j;
+                var cell = row.insertCell(j / 5);
+                console.log(fish[index].name);
+                cell.innerHTML =  "<img src=\"./images/fish/" + index + ".jpeg\" title= \"" + fish[index].name + "\" alt=\"not found yet\">";
+              }
+            }
+          }
+        });
+    </script>
+  </div>
+</body>
+
+</html>
