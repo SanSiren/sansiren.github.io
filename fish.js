@@ -30,6 +30,7 @@ fetch(source)
     var html = '<img src="./images/fish/' + index + '.jpeg" title= "' + fish.name + '" alt="not found yet">';
     cell1.innerHTML = html;
     cell1.colSpan = 2;
+    cell1.style.textAlign = "center";
 
     // localtion + shadow
 
