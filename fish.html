@@ -30,9 +30,11 @@
           var tbody = fishList.createTBody();
           for (var i = 1; i <= 5; i++) {
             var row = tbody.insertRow(-1);
-            for (var j = 0; j < 75; j = j + 5) {
+            for (var j = 0; j <= 75; j = j + 5) {
               {
                 var index = i + j;
+                var cell = row.insertCell(j / 5);
+                cell.innerHTML =  index;
                 console.log("row: " + i + " column: " + j + " index: " + index);
               }
             }
