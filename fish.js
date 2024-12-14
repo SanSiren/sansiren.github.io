@@ -46,7 +46,7 @@ fetch(source)
     // months + time
     row = tbody.insertRow(-1);
     var cell4 = row.insertCell(0);
-    cell4.innerHTML = "Months: <br>" + fish.months;
+    cell4.innerHTML = "Nothern Hemisphere: </br>" + fish.months.northern + "</br> Southern Hemisphere: </br>" + fish.months.southern;
     cell4.style.padding = "15px";
 
     var cell5 = row.insertCell(1);
