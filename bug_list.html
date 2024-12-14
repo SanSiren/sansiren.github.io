@@ -1,0 +1,65 @@
+<html>
+
+<head>
+  <title>Animal Crossing New Horizons</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+
+<body>
+  <div id="header">
+    <h1>Bugs List</h1>
+  </div>
+  <div id="back">
+    <a href="javascript:history.back()">Go Back</a>
+  </div>
+  <div id="bugs">
+    <script>
+      // Fetch data from JSON file for convenience
+      var source = "data/bugs.json";
+      fetch(source)
+        .then(response => response.json())
+        .then(data => {
+          var bugs = data.bugs;
+          // see that all is there just in case
+          console.log(bugs);
+          var bugsList = document.createElement("table");
+          fishList.setAttribute("id", "bugsList");
+          document.getElementById("bugs").appendChild(bugsList);
+          var header = bugsList.createTHead();
+          var headerRow = header.insertRow(0);
+          var headerCell1 = headerRow.insertCell(0);
+          var headerCell2 = headerRow.insertCell(1);
+          var headerCell3 = headerRow.insertCell(2);
+          var headerCell4 = headerRow.insertCell(3);
+          var headerCell5 = headerRow.insertCell(4);
+          var headerCell6 = headerRow.insertCell(5);
+          headerCell1.innerHTML = "<b>Image</b>";
+          headerCell2.innerHTML = "<b>Name</b>";
+          headerCell3.innerHTML = "<b>Location</b>";
+          headerCell4.innerHTML = "<b>Price</b>";
+          headerCell5.innerHTML = "<b>Time</b>";
+          headerCell6.innerHTML = "<b>Months</b>";
+
+          var tbody = bugsList.createTBody();
+          for (var i = 1; i <= 80; i++) {
+          var row = tbody.insertRow(-1);
+          var cell1 = row.insertCell(0);
+          var cell2 = row.insertCell(1);
+          var cell3 = row.insertCell(2);
+          var cell4 = row.insertCell(3);
+          var cell5 = row.insertCell(4);
+          var cell6 = row.insertCell(5);
+          cell1.innerHTML = "<img src=\"./images/bugs/" + i + ".jpeg\" alt=\"not found yet\">";
+          cell2.innerHTML = bugs[i].name;
+          cell3.innerHTML = bugs[i].location;
+          cell4.innerHTML = bugs[i].price;
+          cell6.innerHTML = bugs[i].time;
+          cell7.innerHTML = "Nothern Hemisphere: </br>" + bugs[i].months.northern + "</br> Southern Hemisphere: </br>" + bugs[i].months.southern;
+          }
+        });
+    </script>
+  </div>
+</body>
+
+</html>

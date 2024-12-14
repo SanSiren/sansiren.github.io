@@ -1,0 +1,804 @@
+{
+  "bugs": {
+    "1": {
+      "name": "Common Butterfly",
+      "price": 160,
+      "location": "Flying",
+      "time": "4 AM - 7 PM",
+      "months": {
+        "northern": "September - June",
+        "southern": "March - December"
+      }
+    },
+    "2": {
+      "name": "Yellow Butterfly",
+      "price": 160,
+      "location": "Flying",
+      "time": "4 AM - 7 PM",
+      "months": {
+        "northern": "September - June",
+        "southern": "March - December"
+      }
+    },
+    "3": {
+      "name": "Tiger Butterfly",
+      "price": 240,
+      "location": "Flying",
+      "time": "4 AM - 7 PM",
+      "months": {
+        "northern": "March - September",
+        "southern": "September - March"
+      }
+    },
+    "4": {
+      "name": "Peacock Butterfly",
+      "price": 2500,
+      "location": "Flying near hybrid flowers",
+      "time": "4 AM - 7 PM",
+      "months": {
+        "northern": "March - June </br> September - November",
+        "southern": "September - December </br> March - May"
+      }
+    },
+    "5": {
+      "name": "Common Bluebottle",
+      "price": 300,
+      "location": "Flying",
+      "time": "4 AM - 7 PM",
+      "months": {
+        "northern": "April - August",
+        "southern": "October - February"
+      }
+    },
+    "6": {
+      "name": "Paper Kite Butterfly",
+      "price": 1000,
+      "location": "Flying",
+      "time": "8 AM - 7 PM",
+      "months": {
+        "northern": "All Year",
+        "southern": "All Year"
+      }
+    },
+    "7": {
+      "name": "Great Purple Emperor",
+      "price": 3000,
+      "location": "Flying",
+      "time": "4 AM - 7 PM",
+      "months": {
+        "northern": "May - August </br> September - October",
+        "southern": "November - February </br> March - April"
+      }
+    },
+    "8": {
+      "name": "Monarch Butterfly",
+      "price": 140,
+      "location": "Flying",
+      "time": "4 AM - 5 PM",
+      "months": {
+        "northern": "September - November",
+        "southern": "March - May"
+      }
+    },
+    "9": {
+      "name": "Emperor Butterfly",
+      "price": 4000,
+      "location": "Flying",
+      "time": "5 PM - 8 AM",
+      "months": {
+        "northern": "June - September </br> December - March",
+        "southern": "December - March </br> June - September"
+      }
+    },
+    "10": {
+      "name": "Agrias Butterfly",
+      "price": 3000,
+      "location": "Flying",
+      "time": "8 AM - 5 PM",
+      "months": {
+        "northern": "April - September",
+        "southern": "October - March"
+      }
+    },
+    "11": {
+      "name": "Rajah Brooke's Birdwing",
+      "price": 2500,
+      "location": "Flying",
+      "time": "8 AM - 5 PM",
+      "months": {
+        "northern": "April - September </br> December - February",
+        "southern": "October - March </br> June - August"
+      }
+    },
+    "12": {
+      "name": "Queen Alexandra's Birdwing",
+      "price": 4000,
+      "location": "Flying",
+      "time": "8 AM - 4 PM",
+      "months": {
+        "northern": "May - September",
+        "southern": "November - March"
+      }
+    },
+    "13": {
+      "name": "Moth",
+      "price": 130,
+      "location": "Flying by light",
+      "time": "7 PM - 4 AM",
+      "months": {
+        "northern": "All Year",
+        "southern": "All Year"
+      }
+    },
+    "14": {
+      "name": "Atlas Moth",
+      "price": 3000,
+      "location": "On trees",
+      "time": "7 PM - 4 AM",
+      "months": {
+        "northern": "April - September",
+        "southern": "October - March"
+      }
+    },
+    "15": {
+      "name": "Madagascan Sunset Moth",
+      "price": 2500,
+      "location": "Flying",
+      "time": "8 AM - 4 PM",
+      "months": {
+        "northern": "April - September",
+        "southern": "October - March"
+      }
+    },
+    "16": {
+      "name": "Long Locust",
+      "price": 200,
+      "location": "On the ground",
+      "time": "8 AM - 7 PM",
+      "months": {
+        "northern": "April - November",
+        "southern": "October - May"
+      }
+    },
+    "17": {
+      "name": "Migratory Locust",
+      "price": 600,
+      "location": "On the ground",
+      "time": "8 AM - 7 PM",
+      "months": {
+        "northern": "August - November",
+        "southern": "February - May"
+      }
+    },
+    "18": {
+      "name": "Rice Grasshopper",
+      "price": 160,
+      "location": "On the ground",
+      "time": "8 AM - 7 PM",
+      "months": {
+        "northern": "August - November",
+        "southern": "February - May"
+      }
+    },
+    "19": {
+      "name": "Grasshopper",
+      "price": 160,
+      "location": "On the ground",
+      "time": "8 AM - 5 PM",
+      "months": {
+        "northern": "July - September",
+        "southern": "January - March"
+      }
+    },
+    "20": {
+      "name": "Cricket",
+      "price": 130,
+      "location": "On the ground",
+      "time": "5 PM - 8 AM",
+      "months": {
+        "northern": "September - November",
+        "southern": "March - May"
+      }
+    },
+    "21": {
+      "name": "Bell Cricket",
+      "price": 430,
+      "location": "On the ground",
+      "time": "5 PM - 8 AM",
+      "months": {
+        "northern": "September - October",
+        "southern": "March - April"
+      }
+    },
+    "22": {
+      "name": "Mantis",
+      "price": 430,
+      "location": "On flowers",
+      "time": "8 AM - 5 PM",
+      "months": {
+        "northern": "March - November",
+        "southern": "September - May"
+      }
+    },
+    "23": {
+      "name": "Orchid Mantis",
+      "price": 2400,
+      "location": "On white flowers",
+      "time": "8 AM - 5 PM",
+      "months": {
+        "northern": "March - November",
+        "southern": "September - May"
+      }
+    },
+    "24": {
+      "name": "Honeybee",
+      "price": 200,
+      "location": "Flying",
+      "time": "8 AM - 5 PM",
+      "months": {
+        "northern": "March - July </br> September - October",
+        "southern": "March - May </br> November - January"
+      }
+    },
+    "25": {
+      "name": "Wasp",
+      "price": 2500,
+      "location": "Shaking trees",
+      "time": "All Day",
+      "months": {
+        "northern": "All Year",
+        "southern": "All Year"
+      }
+    },
+    "26": {
+      "name": "Brown Cicada",
+      "price": 250,
+      "location": "On trees",
+      "time": "8 AM - 5 PM",
+      "months": {
+        "northern": "July - August",
+        "southern": "January - February"
+      }
+    },
+    "27": {
+      "name": "Robust Cicada",
+      "price": 300,
+      "location": "On trees",
+      "time": "8 AM - 5 PM",
+      "months": {
+        "northern": "July - August",
+        "southern": "January - February"
+      }
+    },
+    "28": {
+      "name": "Giant Cicada",
+      "price": 500,
+      "location": "On trees",
+      "time": "8 AM - 5 PM",
+      "months": {
+        "northern": "July - August",
+        "southern": "January - February"
+      }
+    },
+    "29": {
+      "name": "Walker Cicada",
+      "price": 400,
+      "location": "On trees",
+      "time": "8 AM - 5 PM",
+      "months": {
+        "northern": "August - September",
+        "southern": "February - March"
+      }
+    },
+    "30": {
+      "name": "Evening Cicada",
+      "price": 550,
+      "location": "On trees",
+      "time": "4 AM - 8 AM </br> 4 PM - 7 PM",
+      "months": {
+        "northern": "July - August",
+        "southern": "January - February"
+      }
+    },
+    "31": {
+      "name": "Cicada Shell",
+      "price": 10,
+      "location": "On trees",
+      "time": "All Day",
+      "months": {
+        "northern": "July - August",
+        "southern": "January - February"
+      }
+    },
+    "32": {
+      "name": "Red Dragonfly",
+      "price": 180,
+      "location": "Flying",
+      "time": "8 AM - 7 PM",
+      "months": {
+        "northern": "September - October",
+        "southern": "March - April"
+      }
+    },
+    "33": {
+      "name": "Darner Dragonfly",
+      "price": 230,
+      "location": "Flying",
+      "time": "8 AM - 5 PM",
+      "months": {
+        "northern": "April - October",
+        "southern": "October - April"
+      }
+    },
+    "34": {
+      "name": "Banded Dragonfly",
+      "price": 4500,
+      "location": "Flying",
+      "time": "8 AM - 5 PM",
+      "months": {
+        "northern": "May - October",
+        "southern": "November - April"
+      }
+    },
+    "35": {
+      "name": "Damselfly",
+      "price": 500,
+      "location": "Flying",
+      "time": "All Day",
+      "months": {
+        "northern": "All Year",
+        "southern": "All Year"
+      }
+    },
+    "36": {
+      "name": "Firefly",
+      "price": 300,
+      "location": "Flying",
+      "time": "7 PM - 4 AM",
+      "months": {
+        "northern": "June",
+        "southern": "December"
+      }
+    },
+    "37": {
+      "name": "Mole Cricket",
+      "price": 500,
+      "location": "Underground",
+      "time": "All Day",
+      "months": {
+        "northern": "All Year",
+        "southern": "All Year"
+      }
+    },
+    "38": {
+      "name": "Pondskater",
+      "price": 130,
+      "location": "On ponds and rivers",
+      "time": "8 AM - 7 PM",
+      "months": {
+        "northern": "May - September",
+        "southern": "November - March"
+      }
+    },
+    "39": {
+      "name": "Diving Beetle",
+      "price": 800,
+      "location": "On ponds and rivers",
+      "time": "8 AM - 7 PM",
+      "months": {
+        "northern": "May - September",
+        "southern": "November - March"
+      }
+    },
+    "40": {
+      "name": "Giant Water Bug",
+      "price": 2000,
+      "location": "On ponds and rivers",
+      "time": "7 PM - 8 AM",
+      "months": {
+        "northern": "April - September",
+        "southern": "October - March"
+      }
+    },
+    "41": {
+      "name": "Stinkbug",
+      "price": 120,
+      "location": "On flowers",
+      "time": "All Day",
+      "months": {
+        "northern": "All Year",
+        "southern": "All Year"
+      }
+    },
+    "42": {
+      "name": "Man-faced Stink Bug",
+      "price": 1000,
+      "location": "On flowers",
+      "time": "7 PM - 8 AM",
+      "months": {
+        "northern": "March - October",
+        "southern": "September - April"
+      }
+    },
+    "43": {
+      "name": "Ladybug",
+      "price": 200,
+      "location": "On flowers",
+      "time": "8 AM - 5 PM",
+      "months": {
+        "northern": "March - October",
+        "southern": "September - April"
+      }
+    },
+    "44": {
+      "name": "Tiger Beetle",
+      "price": 1500,
+      "location": "On the ground",
+      "time": "All Year",
+      "months": {
+        "northern": "All Year",
+        "southern": "All Year"
+      }
+    },
+    "45": {
+      "name": "Jewel Beetle",
+      "price": 2400,
+      "location": "On tree stumps",
+      "time": "All Year",
+      "months": {
+        "northern": "April - August, October - February",
+        "southern": "April - February, August"
+      }
+    },
+    "46": {
+      "name": "Violin Beetle",
+      "price": 450,
+      "location": "On tree stumps",
+      "time": "All Day",
+      "months": {
+        "northern": "May - June, September - November",
+        "southern": "March - May, November"
+      }
+    },
+    "47": {
+      "name": "Citrus Long-horned Beetle",
+      "price": 350,
+      "location": "On tree stumps",
+      "time": "All Day",
+      "months": {
+        "northern": "All Year",
+        "southern": "All Year"
+      }
+    },
+    "48": {
+      "name": "Rosalia Batesi Beetle",
+      "price": 3000,
+      "location": "On tree stumps",
+      "time": "All Day",
+      "months": {
+        "northern": "May - September",
+        "southern": "November - March"
+      }
+    },
+    "49": {
+      "name": "Blue Weevil Beetle",
+      "price": 800,
+      "location": "On palm trees",
+      "time": "All Day",
+      "months": {
+        "northern": "July - August, November - January",
+        "southern": "January - February, May - July"
+      }
+    },
+    "50": {
+      "name": "Dung Beetle",
+      "price": 3000,
+      "location": "On the ground",
+      "time": "All Day",
+      "months": {
+        "northern": "December - February </br> May - October",
+        "southern": "June - August </br> November - April"
+      }
+    },
+    "51": {
+      "name": "Earth-boring Dung Beetle",
+      "price": 300,
+      "location": "On the ground",
+      "time": "All Year",
+      "months": {
+        "northern": "July - September",
+        "southern": "January - March"
+      }
+    },
+    "52": {
+      "name": "Scarab Beetle",
+      "price": 10000,
+      "location": "On trees",
+      "time": "11 PM - 8 AM",
+      "months": {
+        "northern": "July - August",
+        "southern": "January - February"
+      }
+    },
+    "53": {
+      "name": "Drone Beetle",
+      "price": 200,
+      "location": "On trees",
+      "time": "All Year",
+      "months": {
+        "northern": "June - August",
+        "southern": "December - February"
+      }
+    },
+    "54": {
+      "name": "Goliath Beetle",
+      "price": 8000,
+      "location": "On palm trees",
+      "time": "5 PM - 8 AM",
+      "months": {
+        "northern": "June - September </br> December - March",
+        "southern": "December - March </br> June - September"
+      }
+    },
+    "55": {
+      "name": "Saw Stag",
+      "price": 2000,
+      "location": "On trees",
+      "time": "All Day",
+      "months": {
+        "northern": "July - August",
+        "southern": "January - February"
+      }
+    },
+    "56": {
+      "name": "Miyama Stag",
+      "price": 1000,
+      "location": "On trees",
+      "time": "All Day",
+      "months": {
+        "northern": "July - August",
+        "southern": "January - February"
+      }
+    },
+    "57": {
+      "name": "Giant Stag",
+      "price": 10000,
+      "location": "On trees",
+      "time": "11 PM - 8 AM",
+      "months": {
+        "northern": "July - August",
+        "southern": "January - February"
+      }
+    },
+    "58": {
+      "name": "Rainbow Stag",
+      "price": 6000,
+      "location": "On trees",
+      "time": "7 PM - 8 AM",
+      "months": {
+        "northern": "June - September",
+        "southern": "December - March"
+      }
+    },
+    "59": {
+      "name": "Cyclommatus Stag",
+      "price": 8000,
+      "location": "On palm trees",
+      "time": "5 PM - 8 AM",
+      "months": {
+        "northern": "July - August",
+        "southern": "January - February"
+      }
+    },
+    "60": {
+      "name": "Golden Stag",
+      "price": 12000,
+      "location": "On palm trees",
+      "time": "5 PM - 8 AM",
+      "months": {
+        "northern": "July - August",
+        "southern": "January - February"
+      }
+    },
+    "61": {
+      "name": "Giraffe Stag",
+      "price": 12000,
+      "location": "On palm trees",
+      "time": "5 PM - 8 AM",
+      "months": {
+        "northern": "July - August",
+        "southern": "January - February"
+      }
+    },
+    "62": {
+      "name": "Horned Dynastid",
+      "price": 1350,
+      "location": "On trees",
+      "time": "5 PM - 8 AM",
+      "months": {
+        "northern": "July - August",
+        "southern": "January - February"
+      }
+    },
+    "63": {
+      "name": "Horned Atlas",
+      "price": 8000,
+      "location": "On palm trees",
+      "time": "5 PM - 8 AM",
+      "months": {
+        "northern": "July - August",
+        "southern": "January - February"
+      }
+    },
+    "64": {
+      "name": "Horned Elephant",
+      "price": 8000,
+      "location": "On palm trees",
+      "time": "5 PM - 8 AM",
+      "months": {
+        "northern": "July - August",
+        "southern": "January - February"
+      }
+    },
+    "65": {
+      "name": "Horned Hercules",
+      "price": 12000,
+      "location": "On palm trees",
+      "time": "5 PM - 8 AM",
+      "months": {
+        "northern": "July - August",
+        "southern": "January - February"
+      }
+    },
+    "66": {
+      "name": "Walking Stick",
+      "price": 600,
+      "location": "On trees",
+      "time": "4 AM - 8 AM </br> 5 PM - 7 PM",
+      "months": {
+        "northern": "July - November",
+        "southern": "January - May"
+      }
+    },
+    "67": {
+      "name": "Walking Leaf",
+      "price": 600,
+      "location": "Disguised as leaves",
+      "time": "All Day",
+      "months": {
+        "northern": "July - September",
+        "southern": "January - March"
+      }
+    },
+    "68": {
+      "name": "Bagworm",
+      "price": 600,
+      "location": "Shaking trees",
+      "time": "All Day",
+      "months": {
+        "northern": "All Year",
+        "southern": "All Year"
+      }
+    },
+    "69": {
+      "name": "Ant",
+      "price": 80,
+      "location": "On rotten food",
+      "time": "All Day",
+      "months": {
+        "northern": "All Year",
+        "southern": "All Year"
+      }
+    },
+    "70": {
+      "name": "Hermit Crab",
+      "price": 1000,
+      "location": "Beach",
+      "time": "7 PM - 8 AM",
+      "months": {
+        "northern": "All Year",
+        "southern": "All Year"
+      }
+    },
+    "71": {
+      "name": "Wharf Roach",
+      "price": 200,
+      "location": "On rocks",
+      "time": "All Year",
+      "months": {
+        "northern": "All Year",
+        "southern": "All Year"
+      }
+    },
+    "72": {
+      "name": "Fly",
+      "price": 60,
+      "location": "On trash items",
+      "time": "All Day",
+      "months": {
+        "northern": "All Year",
+        "southern": "All Year"
+      }
+    },
+    "73": {
+      "name": "Mosquito",
+      "price": 130,
+      "location": "Flying",
+      "time": "5 PM - 4 AM",
+      "months": {
+        "northern": "June - September",
+        "southern": "December - March"
+      }
+    },
+    "74": {
+      "name": "Flea",
+      "price": 70,
+      "location": "On villagers",
+      "time": "All Day",
+      "months": {
+        "northern": "All Year",
+        "southern": "All Year"
+      }
+    },
+    "75": {
+      "name": "Snail",
+      "price": 250,
+      "location": "On rocks and bushes when raining",
+      "time": "All Day",
+      "months": {
+        "northern": "All Year",
+        "southern": "All Year"
+      }
+    },
+    "76": {
+      "name": "Pill Bug",
+      "price": 250,
+      "location": "Hit rocks",
+      "time": "11 PM - 4 PM",
+      "months": {
+        "northern": "September - June",
+        "southern": "March - December"
+      }
+    },
+    "77": {
+      "name": "Centipede",
+      "price": 300,
+      "location": "Hit rocks",
+      "time": "4 PM - 11 PM",
+      "months": {
+        "northern": "September - June",
+        "southern": "March - December"
+      }
+    },
+    "78": {
+      "name": "Spider",
+      "price": 600,
+      "location": "Shaking trees",
+      "time": "7 PM - 8 AM",
+      "months": {
+        "northern": "March - June, September - December",
+        "southern": "March - June, September - December"
+      }
+    },
+    "79": {
+      "name": "Tarantula",
+      "price": 8000,
+      "location": "On the ground",
+      "time": "7 PM - 4 AM",
+      "months": {
+        "northern": "November - April",
+        "southern": "May - October"
+      }
+    },
+    "80": {
+      "name": "Scorpion",
+      "price": 8000,
+      "location": "On the ground",
+      "time": "7 PM - 4 AM",
+      "months": {
+        "northern": "May - October",
+        "southern": "November - April"
+      }
+    }
+  }
+}
