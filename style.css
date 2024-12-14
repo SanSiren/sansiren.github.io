@@ -7,6 +7,7 @@ h1 {
   font-family: 'Snell Roundhand', cursive;
   src: url('./fonts/snell-roundhand.otf');
   font-size: 250%;
+  text-align: center;
 }
 
 table, th, td {
