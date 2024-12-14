@@ -18,11 +18,27 @@
         .then(response => response.json())
         .then(data => {
           var fish = data.fish;
-          console.log(typeof fish);
           console.log(fish);
           console.log ("##########");
-          //console.log(Object.values(fish[1].name));
           console.log(fish[1].name);
+          var fishList = document.createElement("table");
+          fishList.setAttribute("id", "fishList");
+          document.getElementById("fish").appendChild(fishList);
+          var header = fishList.createTHead();
+          var headerRow = header.insertRow(0);
+          var headerCell1 = headerRow.insertCell(0);
+          var headerCell2 = headerRow.insertCell(1);
+          var headerCell3 = headerRow.insertCell(2);
+          var headerCell4 = headerRow.insertCell(3);
+          var headerCell5 = headerRow.insertCell(4);
+          var headerCell6 = headerRow.insertCell(5);
+          headerCell1.innerHTML = "<b>Name</b>";
+          headerCell2.innerHTML = "<b>Location</b>";
+          headerCell3.innerHTML = "<b>Price</b>";
+          headerCell4.innerHTML = "<b>Shadow Size</b>";
+          headerCell5.innerHTML = "<b>Time</b>";
+          headerCell6.innerHTML = "<b>Months</b>";
+          console.log(fish.length);
           });
     </script>
   </div>
