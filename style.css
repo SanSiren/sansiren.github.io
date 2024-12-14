@@ -16,7 +16,7 @@ body {
 
 h1 {
   font-family: 'Snell Roundhand', cursive;
-  font-size: 250%;
+  font-size: 300%;
   text-align: center;
   color: aliceblue;
   text-shadow: 4px 4px 4px #000000;
@@ -70,6 +70,12 @@ h1 {
 .fishes table, th, td {
   border: 1px solid;
   border-collapse: collapse;
+}
+
+.fish {
+  color:aliceblue;
+  width: 100%;
+  padding: 20px;
 }
 
 .fish table {
