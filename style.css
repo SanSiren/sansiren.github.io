@@ -72,12 +72,7 @@ h1 {
   border-collapse: collapse;
 }
 
-.fish {
-  color:aliceblue;
-  width: 100%;
-  padding: 20px;
-}
-
 .fish table {
+  color: aliceblue;
   width: 100%;
 }
