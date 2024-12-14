@@ -53,8 +53,8 @@
           var cell5 = row.insertCell(4);
           var cell6 = row.insertCell(5);
           var cell7 = row.insertCell(6);
-          console.log("images/fish/" + i + ".jpeg");
-          cell1.innerHTML = "<img src='./images/fish/" + i + ".jpeg' alt='" + fish[i].name + ">";
+          //console.log("images/fish/" + i + ".jpeg");
+          cell1.innerHTML = "<img src=\"./images/fish/" + i + ".jpeg\" alt=\"" + fish[i].name + "\">";
           cell2.innerHTML = fish[i].name;
           cell3.innerHTML = fish[i].location;
           cell4.innerHTML = fish[i].price;
@@ -64,7 +64,6 @@
           }
         });
     </script>
-    <img src="./images/fish/1.jpeg" alt="Bitterling">
   </div>
 </body>
 
