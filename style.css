@@ -1,5 +1,6 @@
 body {
   font: 14px/1.5 'Comic Sans MS', 'Comic Sans', cursive;
+  src: url('./fonts/comic-sans-ms.ttf');
 }
 
 h1 {
