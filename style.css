@@ -22,15 +22,11 @@ h1 {
   text-shadow: 4px 4px 4px #000000;
 }
 
-table, th, td {
-  border: 1px solid;
-  border-collapse: collapse;
-}
-
 .nav {
   padding: 20px;
   text-align: center;
 }
+
 .nav table {
   width: 100%;
   border: none;
@@ -49,8 +45,13 @@ table, th, td {
   font-size: 90%;
 }
 
-.fish {
+.fishes {
   width: 100%;
   padding: 20px;
   overflow: scroll;
+}
+
+.fishes table, th, td {
+  border: 1px solid;
+  border-collapse: collapse;
 }
