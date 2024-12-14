@@ -25,6 +25,11 @@ fetch(source)
     var tbody = fishView.createTBody();
     
     // picture
+    var row = tbody.insertRow(-1);
+    var cell1 = row.insertCell(0);
+    var html = '<img src="./images/fish/' + index + '.jpeg" title= "' + fish.name + '" alt="not found yet">';
+    cell1.innerHTML = html;
+    cell1.colSpan = 2;
 
     // localtion + shadow
 
