@@ -107,3 +107,10 @@ h1 {
   border-collapse: collapse;
   margin: 0 auto;
 }
+
+.sea_creature table {
+  color: aliceblue;
+  width: 100%;
+  border: 1px solid;
+  border-collapse: collapse;
+}
