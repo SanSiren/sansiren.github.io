@@ -36,7 +36,7 @@ fetch(source)
     // shadow size + movement
     row = tbody.insertRow(-1);
     var cell2 = row.insertCell(0);
-    cell2.innerHTML = "<b>Shadow Size:</b> <br>" + creature.shadow_size;
+    cell2.innerHTML = "<b>Shadow Size:</b> <br>" + creature.shadowSize;
     cell2.style.textAlign = "center";
     cell2.style.width = "50%";
 
@@ -63,5 +63,5 @@ fetch(source)
     cell6.innerHTML = "<b>Price:</b> <br>" + creature.price;
     cell6.style.textAlign = "center";
     cell6.colSpan = 2;
-    
+
   });
