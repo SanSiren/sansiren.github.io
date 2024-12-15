@@ -1,0 +1,444 @@
+{
+  "sea": {
+    "1": {
+      "name": "Seaweed",
+      "price": 600,
+      "shadowSize": "Large",
+      "movement": "Stationary",
+      "time": "All Day",
+      "months": {
+        "northern": "October - July",
+        "southern": "April - January"
+      }
+    },
+    "2": {
+      "name": "Sea Grapes",
+      "price": 900,
+      "shadowSize": "Small",
+      "movement": "Stationary",
+      "time": "All Day",
+      "months": {
+        "northern": "June - September",
+        "southern": "December - March"
+      }
+    },
+    "3": {
+      "name": "Sea Cucumber",
+      "price": 500,
+      "shadowSize": "Medium",
+      "movement": "Very Slow",
+      "time": "All Day",
+      "months": {
+        "northern": "November - April",
+        "southern": "May - October"
+      }
+    },
+    "4": {
+      "name": "Sea Pig",
+      "price": 10000,
+      "shadowSize": "Small",
+      "movement": "Very Fast",
+      "time": "4 PM - 9 AM",
+      "months": {
+        "northern": "November - February",
+        "southern": "May - August"
+      }
+    },
+    "5": {
+      "name": "Sea Star",
+      "price": 500,
+      "shadowSize": "Small",
+      "movement": "Very Slow",
+      "time": "All Day",
+      "months": {
+        "northern": "All Year",
+        "southern": "All Year"
+      }
+    },
+    "6": {
+      "name": "Sea Urchin",
+      "price": 1700,
+      "shadowSize": "Small",
+      "movement": "Very Slow",
+      "time": "All Day",
+      "months": {
+        "northern": "May - September",
+        "southern": "November - March"
+      }
+    },
+    "7": {
+      "name": "Slate Pencil Urchin",
+      "price": 2000,
+      "shadowSize": "Medium",
+      "movement": "Medium",
+      "time": "4 PM - 9 AM",
+      "months": {
+        "northern": "May - September",
+        "southern": "November - March"
+      }
+    },
+    "8": {
+      "name": "Sea Anemone",
+      "price": 500,
+      "shadowSize": "Large",
+      "movement": "Stationary",
+      "time": "All Day",
+      "months": {
+        "northern": "All Year",
+        "southern": "All Year"
+      }
+    },
+    "9": {
+      "name": "Moon Jellyfish",
+      "price": 600,
+      "shadowSize": "Small",
+      "movement": "Very Slow",
+      "time": "All Day",
+      "months": {
+        "northern": "July - September",
+        "southern": "January - March"
+      }
+    },
+    "10": {
+      "name": "Sea Slug",
+      "price": 600,
+      "shadowSize": "X Small",
+      "movement": "Very Slow",
+      "time": "All Day",
+      "months": {
+        "northern": "All Year",
+        "southern": "All Year"
+      }
+    },
+    "11": {
+      "name": "Pearl Oyster",
+      "price": 2800,
+      "shadowSize": "Small",
+      "movement": "Medium",
+      "time": "All Day",
+      "months": {
+        "northern": "All Year",
+        "southern": "All Year"
+      }
+    },
+    "12": {
+      "name": "Mussel",
+      "price": 1500,
+      "shadowSize": "Small",
+      "movement": "Slow",
+      "time": "All Day",
+      "months": {
+        "northern": "June - December",
+        "southern": "December - June"
+      }
+    },
+    "13": {
+      "name": "Oyster",
+      "price": 1100,
+      "shadowSize": "Small",
+      "movement": "Slow",
+      "time": "All Day",
+      "months": {
+        "northern": "September - February",
+        "southern": "March - August"
+      }
+    },
+    "14": {
+      "name": "Scallop",
+      "price": 1200,
+      "shadowSize": "Medium",
+      "movement": "Slow",
+      "time": "All Day",
+      "months": {
+        "northern": "All Year",
+        "southern": "All Year"
+      }
+    },
+    "15": {
+      "name": "Whelk",
+      "price": 1000,
+      "shadowSize": "Small",
+      "movement": "Slow",
+      "time": "All Day",
+      "months": {
+        "northern": "January - December",
+        "southern": "July - June"
+      }
+    },
+    "16": {
+      "name": "Turban Shell",
+      "price": 1000,
+      "shadowSize": "Small",
+      "movement": "Slow",
+      "time": "All Day",
+      "months": {
+        "northern": "March - May </br> September - December",
+        "southern": "September - November </br> March - June"
+      }
+    },
+    "17": {
+      "name": "Abalone",
+      "price": 2000,
+      "shadowSize": "Medium",
+      "movement": "Medium",
+      "time": "4 PM - 9 AM",
+      "months": {
+        "northern": "June - January",
+        "southern": "December - July"
+      }
+    },
+    "18": {
+      "name": "Gigas Giant Clam",
+      "price": 15000,
+      "shadowSize": "X Large",
+      "movement": "Very Fast",
+      "time": "All Day",
+      "months": {
+        "northern": "May - September",
+        "southern": "November - March"
+      }
+    },
+    "19": {
+      "name": "Chambered Nautilus",
+      "price": 1800,
+      "shadowSize": "Medium",
+      "movement": "Medium",
+      "time": "4 PM - 9 AM",
+      "months": {
+        "northern": "March - June </br> September - November",
+        "southern": "September - December </br> March - May"
+      }
+    },
+    "20": {
+      "name": "Octopus",
+      "price": 1200,
+      "shadowSize": "Medium",
+      "movement": "Medium",
+      "time": "All Day",
+      "months": {
+        "northern": "January - March </br> July - December",
+        "southern": "January - March </br> July - December"
+      }
+    },
+    "21": {
+      "name": "Umbrella Octopus",
+      "price": 6000,
+      "shadowSize": "Small",
+      "movement": "Fast",
+      "time": "All Day",
+      "months": {
+        "northern": "March - May </br> September - November",
+        "southern": "September - November </br> March - May"
+      }
+    },
+    "22": {
+      "name": "Vampire Squid",
+      "price": 10000,
+      "shadowSize": "Medium",
+      "movement": "Very Fast",
+      "time": "4 PM - 9 AM",
+      "months": {
+        "northern": "May - August",
+        "southern": "November - February"
+      }
+    },
+    "23": {
+      "name": "Firefly Squid",
+      "price": 1400,
+      "shadowSize": "X Small",
+      "movement": "Slow",
+      "time": "9 PM - 4 AM",
+      "months": {
+        "northern": "March - June",
+        "southern": "September - December"
+      }
+    },
+    "24": {
+      "name": "Gazami Crab",
+      "price": 2200,
+      "shadowSize": "Medium",
+      "movement": "Medium",
+      "time": "All Day",
+      "months": {
+        "northern": "June - November",
+        "southern": "December - May"
+      }
+    },
+    "25": {
+      "name": "Dungeness Crab",
+      "price": 1900,
+      "shadowSize": "Medium",
+      "movement": "Medium",
+      "time": "All Day",
+      "months": {
+        "northern": "November - May",
+        "southern": "May - November"
+      }
+    },
+    "26": {
+      "name": "Snow Crab",
+      "price": 6000,
+      "shadowSize": "Large",
+      "movement": "Fast",
+      "time": "All Day",
+      "months": {
+        "northern": "November - April",
+        "southern": "May - October"
+      }
+    },
+    "27": {
+      "name": "Red King Crab",
+      "price": 8000,
+      "shadowSize": "Large",
+      "movement": "Very Fast",
+      "time": "All Day",
+      "months": {
+        "northern": "November - March",
+        "southern": "May - September"
+      }
+    },
+    "28": {
+      "name": "Acorn Barnacle",
+      "price": 600,
+      "shadowSize": "X Small",
+      "movement": "Stationary",
+      "time": "All Day",
+      "months": {
+        "northern": "All Year",
+        "southern": "All Year"
+      }
+    },
+    "29": {
+      "name": "Spider Crab",
+      "price": 12000,
+      "shadowSize": "X Large",
+      "movement": "Very Fast",
+      "time": "All Day",
+      "months": {
+        "northern": "March - April",
+        "southern": "September - October"
+      }
+    },
+    "30": {
+      "name": "Tiger Prawn",
+      "price": 3000,
+      "shadowSize": "Small",
+      "movement": "Medium",
+      "time": "4 PM - 9 AM",
+      "months": {
+        "northern": "June - September",
+        "southern": "December - March"
+      }
+    },
+    "31": {
+      "name": "Sweet Shrimp",
+      "price": 1400,
+      "shadowSize": "Small",
+      "movement": "Slow",
+      "time": "4 PM - 9 AM",
+      "months": {
+        "northern": "September - February",
+        "southern": "March - August"
+      }
+    },
+    "32": {
+      "name": "Mantis Shrimp",
+      "price": 2500,
+      "shadowSize": "Small",
+      "movement": "Medium",
+      "time": "4 PM - 9 AM",
+      "months": {
+        "northern": "All Year",
+        "southern": "All Year"
+      }
+    },
+    "33": {
+      "name": "Spiny Lobster",
+      "price": 5000,
+      "shadowSize": "Large",
+      "movement": "Fast",
+      "time": "9 PM - 4 AM",
+      "months": {
+        "northern": "October - December",
+        "southern": "April - June"
+      }
+    },
+    "34": {
+      "name": "Lobster",
+      "price": 4500,
+      "shadowSize": "Large",
+      "movement": "Fast",
+      "time": "All Day",
+      "months": {
+        "northern": "April - June </br> December - January",
+        "southern": "October - December </br> June - July"
+      }
+    },
+    "35": {
+      "name": "Giant Isopod",
+      "price": 12000,
+      "shadowSize": "Medium",
+      "movement": "Very Fast",
+      "time": "9 AM - 4 PM",
+      "months": {
+        "northern": "July - October",
+        "southern": "January - April"
+      }
+    },
+    "36": {
+      "name": "Horseshoe Crab",
+      "price": 2500,
+      "shadowSize": "Medium",
+      "movement": "Medium",
+      "time": "9 PM - 4 AM",
+      "months": {
+        "northern": "July - September",
+        "southern": "January - March"
+      }
+    },
+    "37": {
+      "name": "Sea Pineapple",
+      "price": 1500,
+      "shadowSize": "Small",
+      "movement": "Slow",
+      "time": "All Day",
+      "months": {
+        "northern": "April - August",
+        "southern": "October - February"
+      }
+    },
+    "38": {
+      "name": "Spotted Garden Eel",
+      "price": 1100,
+      "shadowSize": "Small",
+      "movement": "Slow",
+      "time": "4 AM - 9 PM",
+      "months": {
+        "northern": "May - October",
+        "southern": "November - April"
+      }
+    },
+    "39": {
+      "name": "Flatworm",
+      "price": 700,
+      "shadowSize": "X Small",
+      "movement": "Very Slow",
+      "time": "4 PM - 9 AM",
+      "months": {
+        "northern": "August - September",
+        "southern": "February - March"
+      }
+    },
+    "40": {
+      "name": "Venus' Flower Basket",
+      "price": 5000,
+      "shadowSize": "Medium",
+      "movement": "Fast",
+      "time": "All Day",
+      "months": {
+        "northern": "October - February",
+        "southern": "April - August"
+      }
+    }
+  }
+}
