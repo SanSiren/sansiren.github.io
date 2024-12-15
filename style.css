@@ -84,3 +84,15 @@ h1 {
   padding: 20px;
   overflow: scroll;
 }
+
+.bugs table, th, td {
+  border: 1px solid;
+  border-collapse: collapse;
+}
+
+.bug table {
+  color: aliceblue;
+  width: 100%;
+  border: 1px solid;
+  border-collapse: collapse;
+}
